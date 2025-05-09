@@ -84,7 +84,7 @@ As a benchmark, we also tested OpenCV’s high-level cv2.Stitcher_create() metho
 * Ran tests across different setups to ensure everything worked reliably
 
 ---
-
+To use your own mobile photos in the stitching pipeline, make sure the images are named mobile_left.jpeg and mobile_right.jpeg. These filenames are already referenced in the code, so as long as you replace the existing files with your own using the same names, the script will run without needing any further changes.
 ## Final Output
 
 The final panorama stitches the two images with minimal visible seams. We saved both the manually stitched image and the one generated using OpenCV’s stitcher as stitched_output.jpg so they can be compared easily.
